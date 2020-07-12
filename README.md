@@ -6,23 +6,33 @@ This is a custom build kali linux metapackages
 
 > `kali-my-meta` includes several basic kali linux tools
 
-### Building
+### Build your own
 
-Install dependencies
+Clone kali linux meta packages
+```
+git clone git@gitlab.com:kalilinux/packages/kali-meta.git
+```
+or
+```
+git clone https://gitlab.com/kalilinux/packages/kali-meta.git
+```
+Select tools or matapackages of your choice
 
 ```
-npm install vue-material-adapter
+cd kali-meta/debian
 ```
 
-to build everything
+edit the **control** file, you may refer to the **control** file included on this repo as guide.
+
+Once completed and definde, bump the version using `dch` and provided changes made
 
 ```
-npm run build
-npm run build:demo
+dch --local kohana
 ```
 
-to run demo
+You may replace `kohana` with any word of your choice, as this will be included on the name of final build.
 
+Finally, build the new metapackage with the `dpkg-buildpackage` command.
 ```
-npm run dev
+dpkg-buildpackage -us -uc -b
 ```
