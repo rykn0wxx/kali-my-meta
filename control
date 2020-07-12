@@ -1,0 +1,68 @@
+Source: kali-meta
+Section: metapackages
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Raphaël Hertzog <raphael@offensive-security.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Homepage: https://www.kali.org
+Vcs-Git: https://gitlab.com/kalilinux/packages/kali-meta.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
+
+Package: kali-meme
+Architecture: all
+Depends: ${misc:Depends},
+ kali-archive-keyring,
+ kali-debtags,
+ kali-defaults,
+ kali-grant-root,
+ kali-themes,
+ desktop-base,
+ dbus-user-session,
+ xserver-xorg-legacy,
+ xorg,
+ kali-root-login,
+ cifs-utils,
+ gdisk,
+ iw,
+ mlocate,
+ netcat-traditional,
+ nfs-common,
+ p7zip-full,
+ parted,
+ rfkill,
+ snmp,
+ sudo,
+ tcpdump,
+ tftp,
+ tmux,
+ unrar | unar,
+ whois,
+ zsh,
+ zsh-autosuggestions,
+ zsh-syntax-highlighting,
+ firmware-brcm80211,
+ firmware-intel-sound,
+ firmware-iwlwifi,
+ firmware-linux,
+ firmware-misc-nonfree,
+ firmware-realtek,
+ firmware-ralink,
+ desktop-base,
+ gdm3,
+ gedit,
+ gnome-keyring,
+ gnome-session,
+ gnome-shell,
+ gnome-shell-extensions,
+ gnome-shell-extension-dashtodock,
+ gnome-terminal,
+ gnome-tweak-tool,
+ gnome-tweaks,
+ network-manager-gnome,
+ chromium,
+ firefox-esr,
+ qt5ct,
+ qt5-gtk2-platformtheme,
+Description: GNOME based Kali desktop
+ This metapackage installs a minimalistic GNOME desktop on your Kali system.

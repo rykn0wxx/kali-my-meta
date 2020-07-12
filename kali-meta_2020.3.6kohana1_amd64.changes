@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 12 Jul 2020 11:29:38 -0400
+Source: kali-meta
+Binary: kali-meme
+Architecture: all
+Version: 2020.3.6kohana1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Kali Developers <devel@kali.org>
+Changed-By: root <root@mudhead>
+Description:
+ kali-meme  - GNOME based Kali desktop
+Changes:
+ kali-meta (2020.3.6kohana1) UNRELEASED; urgency=medium
+ .
+   * Created kali-meme
+Checksums-Sha1:
+ 2bfed4e4dbfc7f5a1416062bc2bf7ae8ff88d947 11984 kali-meme_2020.3.6kohana1_all.deb
+ e9b498a0a88c8768e72235494a1ea88ec4c6ad9b 4784 kali-meta_2020.3.6kohana1_amd64.buildinfo
+Checksums-Sha256:
+ f1dd4754b0459a9251fd97132b24bf52664a9bf5d45eb4ccf4ad6b838bcf62a4 11984 kali-meme_2020.3.6kohana1_all.deb
+ 015110d5043a2c839322d9ddc4e6a5ad30930aa1cfad14c0699e9ba1d783f76b 4784 kali-meta_2020.3.6kohana1_amd64.buildinfo
+Files:
+ 776b2bbf6f5dc9e9dd441e6ba43aec33 11984 metapackages optional kali-meme_2020.3.6kohana1_all.deb
+ 2c6a52d9747fd93453c6ec924a832c72 4784 metapackages optional kali-meta_2020.3.6kohana1_amd64.buildinfo
